@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="description" content=" Web">
+    <title>Ala' Soliman</title>
+<style>
+
+.top  {
+    
+    background-color: #007bff ;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+    body{
+        font-family: sans-serif;
+        text-transform: capitalize;
+        margin: 0px;
+    }
+
+form{
+width: 50%;
+  margin: auto;    
+}
+input,select{
+  width: 100%; 
+ border: 1px solid  #ccc; 
+ margin-top: 5px;
+padding: 5px;
+}
+input{
+  margin-bottom: 10px;  
+}
+.sub{
+    
+    background-color:#007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+ <div class="top">
+  <p>new product</p>  
+ </div>   
+
+    <div>
+    <form >
+        <label  for="product-name">product name:</label><br>
+        <input type="text" id="product-name" name="product_Name"  >
+
+        <label  for="product-price">product price:</label><br>
+        <input type="number" id="product-price" name="product_price"  >
+
+        
+        <label  for="product-quantity">product quantity:</label><br>
+        <input type="number" id="product-quantity" name="product_quantity"  >
+
+        
+        <label  for="product-image-url">product image URL:</label><br>
+        <input type="url" id="product-image-url" name="product_image_url"  >
+
+        <label  for="product-category">product category</label><br>
+        <select id="product-category" name="product_categor"  >
+      
+        <option value=" Electronics"> Electronics</option>
+        <option value=" Clothing">Clothing</option>
+        <option value=" Home">Home</option>
+        <option value=" Toys">Toys</option>
+        <option value=" Others">Others</option>
+        </select>
+         <input class="sub" type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
